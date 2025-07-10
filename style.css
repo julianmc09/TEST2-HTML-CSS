@@ -1,9 +1,11 @@
+/* Style for the entire page in general */
 * {
     padding: 0;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Customize the option that will take us to the top of the page */
 .home {
     transition: background-color 0.3s ease-in-out;
     cursor: pointer;
@@ -21,6 +23,7 @@
 
 }
 
+/* Animation used for the main */
 @keyframes fade {
     0% {
         opacity: 0;
@@ -31,6 +34,7 @@
     }
 }
 
+/* Header with image used as background */
 header {
     background-image: url(./images/header-ll.png);
     background-position: center;
@@ -47,6 +51,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* Fade animation implemented */
     animation: fade 1.5s ease-in-out;
 }
 
@@ -80,7 +85,7 @@ main {
     font-size: 20px;
 }
 
-
+/* Style of the buttons used for downloading */
 .button-iOS {
     background-color: hsl(171, 66%, 44%);
     color: white;
@@ -154,6 +159,8 @@ main {
     transition: transform 0.3s ease;
     cursor: pointer;
 }
+
+/* Animation for when the cursor is passed over the images */
 
 .main-content-2-img:hover {
     transform: scale(1.1);
@@ -292,8 +299,8 @@ footer {
     height: 20px;
 }
 
+/* Media queries adapted for mobile devices */
 @media(max-width:480px){
-
 
     *{
         padding: 0;
@@ -304,8 +311,6 @@ footer {
         background-image: url(./images/header-mobile-img.png);
         background-position: center;
         background-repeat: no-repeat;
-        
-        
     }
 
     .main-content-1{
@@ -367,8 +372,6 @@ footer {
         margin-bottom: 700px;
     }
 
-
-    
     .main-content-5{
         padding: 0;
     }
@@ -417,6 +420,7 @@ footer {
 
 }
 
+/* Media queries adapted for tablets */
 @media(min-width:768px) and (max-width:1020px){
 
     header{
