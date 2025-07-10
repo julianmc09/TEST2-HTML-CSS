@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.home{
+.home {
     transition: background-color 0.3s ease-in-out;
     cursor: pointer;
     display: flex;
@@ -14,23 +14,24 @@
     color: rgb(75, 75, 75);
 }
 
-.home:hover{
-    background-color:gray;
+.home:hover {
+    background-color: gray;
     border-radius: 8px;
     color: white;
-    
+
 }
 
 @keyframes fade {
-    0%{
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
-    }
+}
 
-header{
+header {
     background-image: url(./images/header-ll.png);
     background-position: center;
     background-size: 100%;
@@ -41,7 +42,7 @@ header{
     align-items: center;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,90 +50,90 @@ main{
     animation: fade 1.5s ease-in-out;
 }
 
-.main-content-1{
+.main-content-1 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-size: 22px;
-    color:rgb(83, 83, 83);
+    color: rgb(83, 83, 83);
     padding-bottom: 70px;
     padding-top: 10px;
 }
 
-.main-content-1 p{
+.main-content-1 p {
     text-align: center;
     color: gray;
 }
 
-.main-content-1 h1{
+.main-content-1 h1 {
     padding-bottom: 30px;
 }
 
-.main-content-first-p{
+.main-content-first-p {
     padding-bottom: 40px;
     font-size: 20px;
 }
 
-.main-content-second-p{
+.main-content-second-p {
     padding-top: 30px;
     font-size: 20px;
 }
 
 
-.button-iOS{
-    background-color:hsl(171, 66%, 44%);
+.button-iOS {
+    background-color: hsl(171, 66%, 44%);
     color: white;
     border: solid 1px hsl(171, 66%, 44%);
     border-radius: 50px;
     padding: 20px;
     font-size: 18px;
-    box-shadow: 2px 2px 2px hsl(171, 66%, 44%) ;
+    box-shadow: 2px 2px 2px hsl(171, 66%, 44%);
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 }
 
-.button-iOS:hover{
-    background-color:black;
+.button-iOS:hover {
+    background-color: black;
     border-radius: 50px;
     padding: 20px;
     color: white;
 }
 
-.button-Mac{
+.button-Mac {
     background-color: hsl(233, 100%, 69%);
     color: white;
     border: solid 1px hsl(233, 100%, 69%);
     border-radius: 50px;
     padding: 20px;
     font-size: 18px;
-    box-shadow: 2px 2px 2px hsl(233, 100%, 69%) ;
+    box-shadow: 2px 2px 2px hsl(233, 100%, 69%);
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 }
 
-.button-Mac:hover{
-    background-color:black;
+.button-Mac:hover {
+    background-color: black;
     border-radius: 50px;
     padding: 20px;
     color: white;
 }
 
-.button-mac-ios{
+.button-mac-ios {
     display: flex;
     gap: 15px;
     padding-bottom: 120px;
 }
 
 
-.main-content-2{
+.main-content-2 {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     display: flex;
     align-items: center;
 }
 
-.main-content-2-p{
+.main-content-2-p {
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -140,60 +141,60 @@ main{
     padding-left: 80px;
 }
 
-.main-content-2-p h3{
+.main-content-2-p h3 {
     color: rgb(83, 83, 83);
 }
 
-.main-content-2-p p{
+.main-content-2-p p {
     color: gray;
 }
 
-.main-content-2-img{
+.main-content-2-img {
     padding-right: 40px;
     transition: transform 0.3s ease;
     cursor: pointer;
 }
 
-.main-content-2-img:hover{
+.main-content-2-img:hover {
     transform: scale(1.1);
 }
 
-.main-content-3{
+.main-content-3 {
     padding-top: 150px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.main-content-3 h2{
+.main-content-3 h2 {
     color: rgb(83, 83, 83);
     font-size: 32px;
 }
 
-.main-content-3 p{
+.main-content-3 p {
     color: gray;
     font-size: 20px;
     text-align: center;
-    padding-top:20px ;
+    padding-top: 20px;
 }
 
-.main-content-3-image{
+.main-content-3-image {
     padding-top: 100px;
     transition: transform 0.3s ease;
     cursor: pointer;
 }
 
-.main-content-3-image:hover{
+.main-content-3-image:hover {
     transform: scale(1.1);
 }
 
-.contents-4-section{
+.contents-4-section {
     display: flex;
     gap: 40px;
 }
 
-.main-content-4{
+.main-content-4 {
     padding-top: 100px;
     display: flex;
     flex-direction: column;
@@ -201,25 +202,25 @@ main{
     justify-content: center;
 }
 
-.main-content-4 h2{
+.main-content-4 h2 {
     font-size: 32px;
     color: rgb(83, 83, 83);
 }
 
-.main-content-4 p{
+.main-content-4 p {
     font-size: 20px;
     text-align: center;
     color: gray;
-    padding-top:16px ;
+    padding-top: 16px;
 }
 
-.main-content-4 h3{
+.main-content-4 h3 {
     font-size: 20px;
-    color: rgb(83, 83, 83)  ;
+    color: rgb(83, 83, 83);
 
 }
 
-.main-content-4-contents{
+.main-content-4-contents {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -229,14 +230,14 @@ main{
     padding-bottom: 180px;
 }
 
-.main-content-4-logos{
+.main-content-4-logos {
     display: flex;
     gap: 100px;
     height: 45px;
     margin-bottom: 20px;
 }
 
-.main-content-5{
+.main-content-5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -245,33 +246,33 @@ main{
     padding-top: 150px;
 }
 
-.main-content-5 h2{
+.main-content-5 h2 {
     font-size: 32px;
     color: rgb(83, 83, 83);
 }
 
-.main-content-5 p{
+.main-content-5 p {
     font-size: 20px;
     color: gray;
     padding-top: 20px;
-    padding-bottom:40px ;
+    padding-bottom: 40px;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(243, 243, 243);
     height: 150px;
-   
+
 }
 
-.footer-logo{
+.footer-logo {
     width: 65px;
     height: 65px;
 }
 
-.footer-information{
+.footer-information {
     display: flex;
     gap: 100px;
     font-size: 18px;
@@ -279,14 +280,224 @@ footer{
     padding-right: 500px;
 }
 
-.footer-information p{
+.footer-information p {
     display: flex;
     margin-bottom: 20px;
 }
 
-.footer-logos{
+.footer-logos {
     display: flex;
     gap: 20px;
     width: 20px;
     height: 20px;
+}
+
+@media(max-width:480px){
+
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        background-image: url(./images/header-mobile-img.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        
+    }
+
+    .main-content-1{
+        text-align: center;
+    }
+
+    .button-mac-ios{
+        flex-direction: column;
+    }
+
+    .main-content-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 0;
+    }
+
+    .main-content-2-p{
+        padding: 0;
+    }
+
+    .main-content-2-img{
+        width: 300px ;
+        height: 300px;
+        padding: 0;
+        padding-bottom: 30px;
+    }
+
+    .main-content-3 h2{
+        text-align: center;
+    }
+
+    .main-content-3-image{
+        width: 400px;
+        height: 450px;
+    }
+
+    .main-content-4 h2{
+        text-align: center;
+    }
+
+    .contents-4-section{
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .main-content-4-contents{
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .main-content-4-logos{
+        flex-direction: column;
+        margin-bottom: 700px;
+    }
+
+
+    
+    .main-content-5{
+        padding: 0;
+    }
+
+    .main-content-5 p{
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        bottom: 0;
+        align-items: center;
+    }
+
+    .footer-information{
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .footer-information div p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-information img{
+        margin-bottom: 20px;
+    }
+
+    .footer-logos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:1020px){
+
+    header{
+        height: 100%;
+        width: 100%;
+    }
+
+    .main-content-1{
+        text-align: center;
+    }
+    .main-content-2{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-content-2-p{
+        padding: 0;
+    }
+
+    .main-content-2-img{
+        padding: 0;
+        margin-bottom: 40px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .main-content-3-image{
+        width: 500px;
+        height: 550px;
+    }
+
+    .contents-4-section{
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+   .main-content-4-contents{
+    padding: 0;
+   }
+
+    .main-content-4-logos{
+        flex-direction: column;
+        margin-bottom: 500px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        bottom: 0;
+        align-items: center;
+    }
+
+    .footer-information{
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-information div p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-information img{
+        margin-bottom: 20px;
+    }
+
+    .footer-logos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
